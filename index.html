@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <!-- outside links -->
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5b84852a02.js"></script>
+  <title>Baby Name Gen</title>
+</head>
+<body>
+  <div class="header-container">
+  <div id="header">
+    <h1>Baby Name Generator</h1>
+  </div>
+</div>
+<div id="input-box-container">
+  <div class="last-name">
+     <form id="form" name="name">
+        <h2>What is your last name?</h2>
+        <input type="text" id="input-box"><br>
+      </form>
+  </div>
+</div>
+<div id="radio-button-container">
+  <div class="girl-radio-button">
+    <input type="radio" id="girl-radio" value="girl" name = "selection" /> Girl
+  </div>
+  <div class="boy-radio-button">
+    <input type="radio" id="boy-radio" value="boy" name = "selection" /> Boy
+  </div>
+</div>
+<div class="generate-button-container">
+  <button type="button" id="generate-button">Generate name! </button>
+</div>
+<div id="result"></div>
+<div class="baby-icons">
+  <i class="fas fa-baby-carriage"></i>
+  <i class="fas fa-baby"></i>
+</div>
+
+
+
+
+
+  <script src="babynames.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
