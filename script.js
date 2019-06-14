@@ -22,7 +22,7 @@ function displayRandomName(){
   }else if(boyRadioBtn.checked){
     var randomBoyName = getRandElem(boyNames);
     var randomMiddleName = getRandElem(middleNames);
-    result.innerHTML = randomBoyName + ' ' + randomMiddleName;
+    result.innerHTML = randomBoyName + ' ' + randomMiddleName + ' ' + formInput.value;
     result.style.color = "blue";
   }
 }
